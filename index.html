@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Filter Countries API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- section header and finding  -->
+      <section class="header">
+        <h1 class="topic-text">Search Filter | Countries API</h1>
+        <p class="sub-topic-text">ค้นหาข้อมูลจำนวนประชากรแต่ละประเทศ</p>
+        <input
+          type="text"
+          name=""
+          id="input"
+          class="input"
+          placeholder="ป้อนชื่อประเทศ"
+          onkeyup="search()"
+        />
+      </section>
+      <!-- section data content about countries -->
+      <section class="contents"></section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
