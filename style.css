@@ -53,6 +53,11 @@ section.contents {
   width: 100%;
   gap: 10px;
   padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+.box-content:hover,
+.box-content:focus{
+  opacity: .6;
 }
 .img-container img {
   display: flex;
